@@ -33,7 +33,7 @@ Skapa en tabell för ditt forum. Använd dig av dina initialer + dagen du är f�
 För att skapa en tabell så behöver du även skapa en kolumn (det som följer namnet i parenteser). Eftersom alla tabeller bör/måste/ska ha en id-kolumn är det en god ide att skapa den samtidigt som tabellen. Det går att skapa flera kolumner när tabellen skapas, men i det här fallet kommer du att lägga till dem i nästa steg.
 
 ```sql
-CREATE TABLE DITT_TABELL_NAMN (id INT UNSIGNED AUTO_INCREMENT, PRIMARY KEY(id)) 
+CREATE TABLE lgl23forum (id INT UNSIGNED AUTO_INCREMENT, PRIMARY KEY(id)) 
 ENGINE = innodb
 DEFAULT CHARSET = utf8mb4;
 ```
