@@ -1,4 +1,9 @@
 {% extends "layout.njk" %}
 {% block  content %}
   <h1>Tjenixen</h1>
+      {% for row in rows %}
+        <li>
+            {{ row | dump }}
+        </li>
+    {% endfor %}
 {% endblock %}
