@@ -4,8 +4,9 @@ const nunjucks = require('nunjucks');
 const app = express();
 const port = 3000;
 const bodyParser = require('body-parser');
-
 const indexRouter = require('./routes/index');
+
+app.use(express.static('public'))
 
 nunjucks.configure('views', {
     autoescape: true,
